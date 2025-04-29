@@ -1,6 +1,6 @@
 //configuracion de rutas del CRUD de citas
 const express = require('express');
-const citasController = require('./controllerCitas');
+const citasController = require('../controllers/controllerCitas');
 const router = express.Router();
 
 router.get('/citas', citasController.getCitas);

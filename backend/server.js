@@ -1,7 +1,7 @@
 //ejecutador del servidor backend
 const express = require('express');
 const cors = require('cors');
-const routesCitas = require('./routesCitas.js');
+const routesCitas = require('./routes/routesCitas');
 
 const app = express();
 const port = 3000;
